@@ -1,0 +1,27 @@
+{
+    "package": {
+        "name": "booklet-moosemetamodeling",
+        "repo": "wip",
+        "subject": "squarebracketassociates",
+        "desc": "Smacc",
+        "licenses": ["MIT"],
+        "website_url": "https://github.com/SquareBracketAssociates/Booklet-MetaModelingInMoose",
+        "issue_tracker_url": "https://github.com/SquareBracketAssociates/Booklet-MetaModelingInMoose/issues",
+        "vcs_url": "https://github.com/SquareBracketAssociates/Booklet-MetaModelingInMoose.git",
+        "labels": ["work-in-progress"]
+    },
+
+    "version": {
+        "name": "latest",
+        "desc": "Latest successful build"
+    },
+
+    "files": [
+        {
+            "includePattern": "build/(book).spiral.pdf",
+            "uploadPattern": "$1moose-wip.pdf",
+            "matrixParams": { "override": 1 }
+        }
+    ],
+    "publish": true
+}
