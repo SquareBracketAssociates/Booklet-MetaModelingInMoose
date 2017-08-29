@@ -17,7 +17,7 @@ help: ## Describe the main targets (this list)
 		&& echo "Print format alternatives: pdf $(ALTERNATEPRINTFORMATS)"
 	@echo "Combined format+volume targets: pdfbook, htmlchapters…"
 	@echo "To make a single specific file/format, ask for it explicitly:"
-	@echo "  make spiral $(OUTPUTDIRECTORY)/$(firstword $(CHAPTERS)).pdf"
+	@echo "  make $(OUTPUTDIRECTORY)/$(firstword $(CHAPTERS)).pdf"
 
 # Check that given variables are set and all have non-empty values,
 # die with an error otherwise.
